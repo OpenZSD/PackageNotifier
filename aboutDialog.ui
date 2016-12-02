@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AboutDialog</class>
+ <widget class="QDialog" name="AboutDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>218</width>
+    <height>359</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>218</width>
+    <height>359</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>218</width>
+    <height>359</height>
+   </size>
+  </property>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="0">
+        <red>193</red>
+        <green>255</green>
+        <blue>48</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="0">
+        <red>193</red>
+        <green>255</green>
+        <blue>48</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>243</red>
+        <green>243</green>
+        <blue>243</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
+  </property>
+  <property name="windowTitle">
+   <string>About</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Imgs.qrc">
+    <normaloff>:/images/img/logo.png</normaloff>:/images/img/logo.png</iconset>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>200</horstretch>
+       <verstretch>200</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>200</width>
+       <height>200</height>
+      </size>
+     </property>
+     <property name="baseSize">
+      <size>
+       <width>200</width>
+       <height>200</height>
+      </size>
+     </property>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>200</horstretch>
+        <verstretch>200</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>200</width>
+        <height>200</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::RichText</enum>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="Imgs.qrc">:/images/img/logo.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QWidget" name="uiSlowRot" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>200</horstretch>
+        <verstretch>200</verstretch>
+       </sizepolicy>
+      </property>
+      <widget class="QLabel" name="uiLogoGear">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>200</width>
+         <height>200</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>200</horstretch>
+         <verstretch>200</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>200</width>
+         <height>200</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>200</width>
+         <height>200</height>
+        </size>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::RichText</enum>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="Imgs.qrc">:/images/img/gear.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+       <property name="openExternalLinks">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="uiFastRot" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>200</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>200</horstretch>
+        <verstretch>200</verstretch>
+       </sizepolicy>
+      </property>
+      <widget class="QLabel" name="uiLogoRing">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>200</width>
+         <height>200</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>200</horstretch>
+         <verstretch>200</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>200</width>
+         <height>200</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>200</width>
+         <height>200</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::RichText</enum>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="Imgs.qrc">:/images/img/loops.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="styleSheet">
+      <string notr="true">body
+{ 
+   width:200px;
+   height:330px;
+}
+.main_box
+{
+   width:200px;
+   height:330px;
+   position:absolute;
+   top:0px;
+   left:0px;
+}
+p
+{
+   text-align: center;
+   font-size: 12px;
+}
+a
+{
+   color: black;
+}
+.span_small
+{
+   font-size: 9px;
+}
+.version_box
+{
+   width:200px;
+   height:15px;
+   top:205px;
+   left:0px;
+}
+
+.logo_box
+{
+
+   width:200px;
+   height:200px;
+   position:relative;
+   top:0px;
+   left:0px;
+}
+
+.logo
+{
+	color: #3c3c3c;
+	position:absolute;
+	margin-left: 0px;
+	margin-top: 0px;	
+   width:200px;
+   height:200px;    
+}
+
+#fadedSpin
+{
+	opacity: 0.75;
+}
+#gearSpin
+{
+  -webkit-animation: spin 20s infinite;
+    -webkit-animation-timing-function: linear;
+}
+#loopSpin
+{
+   -webkit-animation: spin 2s infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes spin
+{ 
+   0% { -webkit-transform: rotate(0deg); }  
+   100% { -webkit-transform: rotate(360deg); }
+}</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head&gt;&lt;title&gt;About&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;http://www.z-softdevelopment.com&quot;&gt;&lt;span style=&quot; font-size:12px; text-decoration: underline; color:#000000;&quot;&gt;ZSoft-Development&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:12px;&quot;&gt;&lt;br/&gt;&lt;br/&gt;Open Source Projects&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot; font-size:9px;&quot;&gt;Developed by Jerry Zaatri&lt;/span&gt;&lt;span style=&quot; font-size:12px;&quot;&gt;&lt;br/&gt;&lt;br/&gt;Version 0.1 &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::RichText</enum>
+     </property>
+     <property name="openExternalLinks">
+      <bool>true</bool>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::LinksAccessibleByKeyboard|Qt::LinksAccessibleByMouse</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Close</set>
+     </property>
+     <property name="centerButtons">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="Imgs.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>AboutDialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>AboutDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
