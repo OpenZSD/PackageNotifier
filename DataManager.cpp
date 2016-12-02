@@ -1,4 +1,4 @@
-#include "dataManager.h"
+#include "DataManager.h"
 
 
 DataManager DataManager::sDM;

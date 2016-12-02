@@ -1,5 +1,5 @@
-#include "nameDialog.h"
-#include "ui_nameDialog.h"
+#include "NameDialog.h"
+#include "ui_NameDialog.h"
 
 NameDialog::NameDialog(QWidget *parent) :
     QDialog(parent),

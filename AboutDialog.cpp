@@ -1,5 +1,5 @@
-#include "aboutDialog.h"
-#include "ui_aboutDialog.h"
+#include "AboutDialog.h"
+#include "ui_AboutDialog.h"
 #include "ExtGraphicsEffect.h"
 #include <QPropertyAnimation>
 #include "UIUtil.h"

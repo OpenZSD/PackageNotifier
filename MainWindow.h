@@ -3,7 +3,7 @@
 
 #include <QMainWindow>
 #include <QMessageBox>
-#include "aboutDialog.h"
+#include "AboutDialog.h"
 
 namespace Ui {
 class MainWindow;

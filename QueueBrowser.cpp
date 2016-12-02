@@ -1,5 +1,5 @@
-#include "queueBrowser.h"
-#include "ui_queueBrowser.h"
+#include "QueueBrowser.h"
+#include "ui_QueueBrowser.h"
 
 QueueBrowser::QueueBrowser(QWidget *parent) :
     QMainWindow(parent),

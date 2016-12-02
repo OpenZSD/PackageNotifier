@@ -14,25 +14,27 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainWindow.cpp \
-    nameDialog.cpp \
-    queueBrowser.cpp \
-    aboutDialog.cpp \
     ExtGraphicsEffect.cpp \
-    dataManager.cpp
+    AboutDialog.cpp \
+    DataManager.cpp \
+    MainWindow.cpp \
+    NameDialog.cpp \
+    QueueBrowser.cpp
 
-HEADERS  += mainWindow.h \
-    nameDialog.h \
-    queueBrowser.h \
-    aboutDialog.h \
+HEADERS  += \
     UIUtil.h \
     ExtGraphicsEffect.h \
-    dataManager.h
+    AboutDialog.h \
+    DataManager.h \
+    MainWindow.h \
+    NameDialog.h \
+    QueueBrowser.h
 
-FORMS    += mainWindow.ui \
-    nameDialog.ui \
-    queueBrowser.ui \
-    aboutDialog.ui
+FORMS    += \
+    AboutDialog.ui \
+    MainWindow.ui \
+    NameDialog.ui \
+    QueueBrowser.ui
 
 RESOURCES += \
     Imgs.qrc
