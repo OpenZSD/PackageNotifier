@@ -1,4 +1,4 @@
-Work in progress...
+THIS PROJECT HAS BEEN ABANDONED.
 Mail package manager.
 
 Author: Jerry Z.
